@@ -7,8 +7,8 @@
   </head>
   <body>
     <div id="root">
-      <ol id="listaEmail">
-        <li v-if="emails.length == 10" v-for="email in emails">{{ email }}</li>
+      <ol id="listaEmail" v-if="emails.length == 10">
+        <li v-for="email in emails">{{ email }}</li>
       </ol>
 
 
